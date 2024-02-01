@@ -1,27 +1,41 @@
-# PokemonTcgDeckBuilder
+# Pokemon TCG Deck Builder
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+Este projeto é um aplicativo de construção de baralhos para o Pokémon Trading Card Game (TCG), desenvolvido com Angular.
 
-## Development server
+## Funcionalidades Implementadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Listagem de Decks:** Visualize a lista de decks salvos no local storage.
+- **Detalhes do Deck:** Obtenha detalhes sobre um deck específico, incluindo as cartas que o compõem.
+- **Adição de Cartas ao Deck:** Adicione cartas ao seu deck escolhendo-as da lista disponível.
+- **Rolagem de Cartas no Deck:** Navegue pelas cartas do deck horizontalmente, com um componente de rolagem.
 
-## Code scaffolding
+## Pré-requisitos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Certifique-se de ter o Node.js e o Angular CLI instalados.
 
-## Build
+## Instalação
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone o repositório:
 
-## Running unit tests
+   ```bash
+   git clone https://github.com/seu-usuario/pokemon-tcg-deck-builder.git
+## Navegue até o diretório do projeto:
+cd pokemon-tcg-deck-builder
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instale as dependências:
+npm install
 
-## Running end-to-end tests
+## Execução
+Inicie o servidor de desenvolvimento:
+ng serve
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Visite http://localhost:4200/ no seu navegador.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Contribuição
+Faça um fork do projeto.
+Crie uma branch para sua contribuição: git checkout -b feature/nova-funcionalidade
+Faça as alterações e commit: git commit -m 'Adiciona nova funcionalidade'
+Push para a branch: git push origin feature/nova-funcionalidade
+Abra um Pull Request.
+Licença
+Licenciado sob a Licença MIT.
